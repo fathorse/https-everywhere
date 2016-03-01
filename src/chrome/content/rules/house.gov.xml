@@ -1,0 +1,8 @@
+<ruleset name="House of Representatives">
+	
+	<target host="financialservices.house.gov" />
+	<target host="house.gov" />
+
+	<rule from="^http:" to="https:"/>
+
+</ruleset>
